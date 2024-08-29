@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    position: relative;
+}
+.side{
+    width:50%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+.side img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin-left: 51%;
+    position: absolute;
+    top: 0;
+
+}
+.top{
+    margin: 20px;
+
+    margin-left: 95%;
+}
+.top i{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    
+}
+.top i:hover{
+    background-color: black;
+    color: #fff;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+.detail h1,p,button{
+    margin:10px auto;
+}
+button{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: #fff;
+
+}
+.portfolio {
+    margin-top:40px;
+
+}
+#photo {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  #photo img {
+    margin: 5px;
+    width: 48%;
+    filter: grayscale(100%);
+   
+}
+ img:hover {
+    
+    cursor: pointer;
+}
+.about{
+    margin-top: 40px;
+} 
+.about h1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.about p {
+    margin-right: 20px;
+   
+}
+.work {
+    width: 90%;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.work h2 {
+    
+    margin-bottom: 25px;
+    
+}
+
+.work1 div {
+    margin-top: 5px;
+    display: flex;
+    height: 25px;
+}
+
+.work1 div #main {
+    width: 90%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.work1 div #main span {
+    margin-left: 50%;
+}
+
+.work1 div #faltu {
+    width: 10%;
+    color: white;
+    background-color: rgb(167, 165, 165);
+}
+
+.work2 {
+    margin-top: 30px;
+}
+
+.work2 div {
+    margin-top: 5px;
+    display: flex;
+    height: 25px;
+}
+
+.work2 div #main {
+    width: 85%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.work2 div #main span {
+    margin-left: 50%;
+}
+
+.work2 div #faltu {
+    width: 15%;
+    color: white;
+    background-color: rgb(121, 118, 118);
+}
+
+.work3 {
+    margin-top: 30px;
+}
+
+.work3 div {
+    margin-top: 5px;
+    display: flex;
+    height: 25px;
+}
+
+.work3 div #main {
+    width: 75%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.work3 div #main span {
+    margin-left: 50%;
+}
+
+.work3 div #faltu {
+    width: 25%;
+    color: white;
+    background-color: rgb(104, 101, 101);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height:auto ;
+
+}
+.info{
+    padding: 20px;
+}
